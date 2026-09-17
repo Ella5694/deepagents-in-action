@@ -1,0 +1,21 @@
+[project]
+name = "ch02-quickstart"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Ella5694", email = "243800194+Ella5694@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "deepagents>=0.7.14",
+    "langchain-openai>=1.6.2",
+    "tavily-python>=0.8.3",
+]
+
+[project.scripts]
+ch02-quickstart = "ch02_quickstart:main"
+
+[build-system]
+requires = ["uv_build>=0.12.12,<0.13.0"]
+build-backend = "uv_build"
